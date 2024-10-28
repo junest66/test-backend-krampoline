@@ -39,6 +39,10 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
+bootJar{
+	archiveFileName = 'kakao-1.0.jar'
+}
+
 jar {
 	enabled = false
 }
